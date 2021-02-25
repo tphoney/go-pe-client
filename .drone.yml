@@ -18,4 +18,4 @@ steps:
   - go test ./...
   detach: true
   depends_on:
-  - detach
+  - detach2
