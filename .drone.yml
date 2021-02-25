@@ -7,3 +7,15 @@ steps:
   commands:
   - go test ./...
   - go build ./...
+- name: detach
+  image: golang
+  commands:
+  - go test ./...
+  detach: true
+- name: depends_on
+  image: golang
+  commands:
+  - go test ./...
+  detach: true
+  depends_on:
+  - asdasd, jim
