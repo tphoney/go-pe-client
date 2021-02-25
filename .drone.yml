@@ -2,20 +2,20 @@ kind: pipeline
 name: default
 
 steps:
-- name: test
+- name: test3
   image: golang
   commands:
   - go test ./...
   - go build ./...
-- name: detach2
+- name: detach3
   image: golang
   commands:
   - go test ./...
   detach: true
-- name: depends_on2
+- name: depends_on3
   image: golang
   commands:
   - go test ./...
   detach: true
   depends_on:
-  - detach2
+  - detach3
