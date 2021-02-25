@@ -12,15 +12,10 @@ steps:
   commands:
   - go test ./...
   detach: true
-  
-kind: pipeline
-name: pipeline_dos
-
-steps:
 - name: depends_on
   image: golang
   commands:
   - go test ./...
   detach: true
   depends_on:
-  - default
+  - detach
