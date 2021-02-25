@@ -2,6 +2,7 @@
 
 [![Build Status](http://localhost:8080/api/badges/tphoney/go-pe-client/status.svg)](http://localhost:8080/tphoney/go-pe-client)
 
+
 [![Go Report Card](https://goreportcard.com/badge/github.com/puppetlabs/go-pe-client)](https://goreportcard.com/report/github.com/puppetlabs/go-pe-client) ![Travis Build Status](https://travis-ci.com/puppetlabs/go-pe-client.svg?branch=master)
 
 Currently a small subset of the Orchestrator and PuppetDB APIs are supported:
